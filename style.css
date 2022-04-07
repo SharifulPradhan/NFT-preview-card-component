@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+  --main-BG: hsl(217, 54%, 11%);
+  --card-BG: hsl(216, 50%, 16%);
+  --line-color: hsl(215, 32%, 27%);
+  --heading-color: hsl(0, 0%, 100%);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit, sans-serif;
+  background-color: var(--main-BG)
+}
+
+.card-wrapper {
+  margin: 0 auto;
+  width: 20em;
+  text-align: center;
+  background-color: var(--card-BG);
+  border-radius: 1em;
+  box-shadow: 5px 2px 20px 20px var(--main-BG);
+}
+
+
+
+.card-content {
+  color: hsl(215, 51%, 70%);
+  padding: 1em;
+  text-align: left;
+}
+
+.card-content > img {
+  width: 100%;
+  border-radius: .5em;
+}
+
+.card-content h2 {
+  color: var(--heading-color);
+  font-size: 1.2em;
+}
+
+.card-content h2:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+.price-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: .8em;
+  margin-bottom: .5em;
+}
+
+.price-time img {
+  margin-right: .5em;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  color: aqua;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+}
+
+.card-footer {
+  color: hsl(215, 51%, 70%);
+  font-size: .8em;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid var(--line-color);
+  padding-top: .5em;
+}
+
+.card-footer img {
+  width: 1.5em;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: .8em;
+}
+
+.card-footer .name {
+  color: hsl(0, 0%, 100%);
+}
+
+.card-footer .name:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
