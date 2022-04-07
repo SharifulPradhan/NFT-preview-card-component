@@ -20,7 +20,7 @@ body {
 
 .card-wrapper {
   margin: 0 auto;
-  width: 20em;
+  width: 22em;
   text-align: center;
   background-color: var(--card-BG);
   border-radius: 1em;
@@ -42,7 +42,6 @@ body {
 
 .card-content h2 {
   color: var(--heading-color);
-  font-size: 1.2em;
 }
 
 .card-content h2:hover {
@@ -53,7 +52,7 @@ body {
 .price-time {
   display: flex;
   justify-content: space-between;
-  font-size: .8em;
+  font-size: 16px;
   margin-bottom: .5em;
 }
 
@@ -74,7 +73,7 @@ body {
 
 .card-footer {
   color: hsl(215, 51%, 70%);
-  font-size: .8em;
+  font-size: 16px;
   font-weight: 400;
   display: flex;
   align-items: center;
